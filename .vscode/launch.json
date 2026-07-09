@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "STM32U575 ST-Link (Cortex-Debug)",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/b/Debug/STAIOTCRAFT_AI_Inertial.elf",
+      "gdbPath": "C:/ST/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/bin/arm-none-eabi-gdb.exe",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "stlink",
+      "serverpath": "C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.win32_2.2.200.202505060755/tools/bin/ST-LINK_gdbserver.exe",
+      "stm32cubeprogrammer": "C:/Program Files/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin",
+      "device": "STM32U575ZITxQ",
+      "interface": "swd",
+      "runToEntryPoint": "main",
+      "armToolchainPath": "C:/ST/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/bin",
+      "showDevDebugOutput": "raw"
+    }
+  ]
+}
