@@ -6,14 +6,6 @@ This repository contains the STAIOTCRAFT AI Inertial firmware project for the NU
 
 The project is self-contained and should be opened directly from this firmware folder in Visual Studio Code.
 
-## Board Image (Official Sources)
-
-![NUCLEO-U575ZI-Q](https://www.st.com/bin/ecommerce/api/image.PF271812.en.feature-description-include-personalized-no-cpn-large.jpg)
-
-Source: [NUCLEO-U575ZI-Q product page](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)
-
-Source: [X-NUCLEO-IKS5A1 product page](https://www.st.com/en/evaluation-tools/x-nucleo-iks5a1.html)
-
 ## Features
 
 - AI inertial firmware project for NUCLEO-U575ZI-Q + X-NUCLEO-IKS5A1
