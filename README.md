@@ -22,7 +22,6 @@ Main folders in this repository:
 - `Addons`, `Core`, `Drivers`, `Middlewares` for firmware source code
 - `AI_INERTIAL` for application-level inertial logic
 - `X-CUBE-MEMS1` for MEMS integration support
-- `staiotcft_nn_model` for model-related assets
 - `cmake` for toolchain and generated CMake support files
 
 ## How The Firmware Works
