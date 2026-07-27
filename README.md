@@ -1,18 +1,19 @@
-# NUCLEO-U575ZI-Q + X-NUCLEO-IKS5A1 AI Inertial Firmware
+# NUCLEO-U575ZI-Q + X-NUCLEO-IKS5A1 AI_Inertial Firmware
 
 ## Introduction
 
-This repository contains the STAIOTCRAFT AI Inertial firmware project for the NUCLEO-U575ZI-Q board with the X-NUCLEO-IKS5A1 expansion board.
+This repository contains the AI_Inertial firmware project for the [NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html) board with the [X-NUCLEO-IKS5A1](https://www.st.com/en/evaluation-tools/x-nucleo-iks5a1.html) expansion board, compatible with the [ST AIoT Craft](https://staiotcraft.st.com/) online platform, which is part of the [ST Edge AI Suite](https://www.st.com/content/st_com/en/st-edge-ai-suite.html).
 
 The project is self-contained and should be opened directly from this firmware folder in Visual Studio Code.
 
 ## Features
 
-- AI inertial firmware project for NUCLEO-U575ZI-Q + X-NUCLEO-IKS5A1
+- Inference with a ML model running on the MLC (Machine Learning Core, decision tree)
+- Custom PnPL protocol for firmware control over serial connectivity (ST-LINK VCP)
 - Self-contained CMake project with Debug and Release presets
-- VS Code configuration for configure, build, and debug
+- VS Code configuration for configure, build, and debug operations
 - ST-LINK debug workflow through Cortex-Debug
-- Runtime control through PnPL JSON commands on ST-LINK VCP
+- The firmware can be controlled by the [ST AIoT Craft](https://staiotcraft.st.com/) online platform
 
 ## Repository Content
 
@@ -20,13 +21,13 @@ Main folders in this repository:
 - `.vscode` for local VS Code workspace configuration
 - `Addons`, `Core`, `Drivers`, `Middlewares` for firmware source code
 - `AI_INERTIAL` for application-level inertial logic
+- `X-CUBE-MEMS1` for MEMS integration support
 - `staiotcft_nn_model` for model-related assets
 - `cmake` for toolchain and generated CMake support files
-- `X-CUBE-MEMS1` for MEMS integration support
 
 ## How The Firmware Works
 
-This section summarizes the runtime behavior of the `AI_INERTIAL` firmware for `NUCLEO-U575ZI-Q + X-NUCLEO-IKS5A1`, aligned with the code in this repository.
+This section summarizes the runtime behavior of the `AI_INERTIAL` firmware for the `NUCLEO-U575ZI-Q + X-NUCLEO-IKS5A1` boards, further described by the UM3525 user manual.
 
 ### Functional Overview
 
